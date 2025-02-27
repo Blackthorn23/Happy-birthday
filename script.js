@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let canOpen = false; // Initially locked
 
-    const targetDate = new Date("February 28, 2025 00:00:00").getTime();
+    const targetDate = new Date(Date.UTC(2025, 1, 27, 16, 0, 0)).getTime(); 
 
     // Update the countdown every second
     const countdownInterval = setInterval(() => {
