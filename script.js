@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let canOpen = false; // Initially locked
 
     // Set the target date and time to February 28 at 12:00 AM
-    const targetDate = new Date("February 25, 2025 17:45:00").getTime();
+    const targetDate = new Date("February 28, 2025 00:00:00").getTime();
 
     // Update the countdown every second
     const countdownInterval = setInterval(() => {
